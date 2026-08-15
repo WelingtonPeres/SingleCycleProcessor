@@ -1,0 +1,31 @@
+﻿# Quartus build artifacts
+db/
+incremental_db/
+output_files/
+simulation/
+*.rpt
+*.summary
+*.pin
+*.qws
+*.bak*
+
+# ModelSim/VCS
+*.wlf
+work/
+*.vo
+*.vvp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp
+*.tmp
+*~
+.cache/
